@@ -11,3 +11,7 @@ _site
 .jekyll-cache/
 .jekyll-metadata
 aider/__version__.py
+
+snyk-linux
+private/notes.Text
+tmp.benchmarks

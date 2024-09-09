@@ -1,0 +1,16 @@
+Model: gpt-4o-mini
+
+### Context Window Size and Costs
+- **Max Tokens:** 16,384
+- **Max Input Tokens:** 128,000
+- **Max Output Tokens:** 16,384
+- **Input Cost per Token:** $0.00000015
+- **Output Cost per Token:** $0.0000006
+
+### Model Support Information
+- Supports Function Calling: Yes
+- Supports Vision: Yes
+
+### Source Links
+- [OpenRouter Model Page](https://openrouter.ai/models/openai/gpt-4o-mini)
+- [Aider Model Settings](https://aider.chat/docs/config/adv-model-settings.html)

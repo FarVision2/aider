@@ -1,0 +1,51 @@
+{
+  "model_name": "claude-3-5-sonnet-20240620",
+  "litellm_params": {
+    "custom_llm_provider": "anthropic",
+    "model": "claude-3-5-sonnet-20240620"
+  },
+  "model_info": {
+    "id": "9dccf341-03d2-41b5-8021-d0fc88d63370",
+    "db_model": true,
+    "key": "claude-3-5-sonnet-20240620",
+    "max_tokens": 4096,
+    "max_input_tokens": 200000,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.000003,
+    "cache_creation_input_token_cost": 0.00000375,
+    "cache_read_input_token_cost": 3e-7,
+    "input_cost_per_character": null,
+    "input_cost_per_token_above_128k_tokens": null,
+    "output_cost_per_token": 0.000015,
+    "output_cost_per_character": null,
+    "output_cost_per_token_above_128k_tokens": null,
+    "output_cost_per_character_above_128k_tokens": null,
+    "output_vector_size": null,
+    "litellm_provider": "anthropic",
+    "mode": "chat",
+    "supported_openai_params": [
+      "stream",
+      "stop",
+      "temperature",
+      "top_p",
+      "max_tokens",
+      "tools",
+      "tool_choice",
+      "extra_headers"
+    ],
+    "supports_system_messages": null,
+    "supports_response_schema": null,
+    "supports_vision": true,
+    "supports_function_calling": true,
+    "supports_assistant_prefill": true
+  },
+  "provider": "anthropic",
+  "input_cost": "3.00",
+  "output_cost": "15.00",
+  "litellm_model_name": "claude-3-5-sonnet-20240620",
+  "max_tokens": 4096,
+  "max_input_tokens": 200000,
+  "cleanedLitellmParams": {
+    "custom_llm_provider": "anthropic"
+  }
+}

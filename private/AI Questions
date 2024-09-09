@@ -1,0 +1,48 @@
+AI Questions
+
+I wish to have openrouter/openai/gpt-4o-mini token costs and context window size calculated according to 
+https://aider.chat/docs/llms/warnings.html
+/home/division/aider/.aider.model.metadata.json
+https://openrouter.ai/models/openai/gpt-4o-mini
+https://aider.chat/docs/config/adv-model-settings.html
+
+And available on the Aider CLI 
+
+How do I get ontext window size and costs for an Aider loaded Model that does not have it? 
+The model is hosted by openrouter and works.
+
+
+$ aider --model openrouter/openai/gpt-4o-mini --dark-mode
+
+Warning for openrouter/openai/gpt-4o-mini: Unknown context window size and costs, using sane defaults.
+Did you mean one of these?
+- openrouter/openai/gpt-4
+- openrouter/openai/gpt-4o
+For more info, see: https://aider.chat/docs/llms/warnings.html
+You can skip this check with --no-show-model-warnings
+
+Proceed anyway? (Y)es/(N)o [Yes]:                                                                                                                                             
+(base) division@DESKTOP-9L5J6S8:~/aider$ 
+
+Notes: 
+/home/division/aider/.aider.model.metadata.json
+https://openrouter.ai/models/openai/gpt-4o-mini
+https://aider.chat/docs/config/adv-model-settings.html
+
+----
+
+(base) division@DESKTOP-9L5J6S8:~/aider$ aider --model openrouter/openai/gpt-4o-mini --dark-mode
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Warning for openrouter/openai/gpt-4o-mini: Unknown context window size and costs, using sane defaults.
+Did you mean one of these?
+- openrouter/openai/gpt-4
+- openrouter/openai/gpt-4o
+For more info, see: https://aider.chat/docs/llms/warnings.html
+You can skip this check with --no-show-model-warnings
+
+Proceed anyway? (Y)es/(N)o [Yes]:  
+
+
+---
+
+The error is that aider does not have this information in its context. I wish for either to have this pricing information in its context 

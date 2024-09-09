@@ -1,0 +1,8 @@
+Negative core files will not be edited 
+
+Aider has CLI functions to pass token cost files
+
+https://aider.chat/docs/config/adv-model-settings.html
+https://openrouter.ai/models/openai/gpt-4o-mini/api
+https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+https://aider.chat/docs/config/options.html
